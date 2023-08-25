@@ -29,6 +29,7 @@ tr{
 }
 tr img{
     width: 40px;
+    text-align: center;
 }
 .btn{
     background-color: #157b8c;
@@ -36,4 +37,9 @@ tr img{
     border:none;
     padding: 5px;
     border-radius: 5px;
+}
+.msg{
+    padding: 40px 0px;
+    font-weight: bold;
+    text-align: center;
 }

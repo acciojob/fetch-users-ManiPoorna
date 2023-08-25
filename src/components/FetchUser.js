@@ -40,8 +40,12 @@ const FetchUser = () => {
                         </tr>
                     ))
                 }
+                
             </tbody>
         </table>
+        {
+            users == "" ? <p className='msg'>No data found to display.</p> : ""
+        }
 
     </div>
     
