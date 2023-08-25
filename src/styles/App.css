@@ -1,1 +1,39 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+.headings{
+    font-size: 20px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+table .header{
+    background-color: black;
+    color: #fff;
+}
+th{
+    padding: 10px;
+}
+tr{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+tr img{
+    width: 40px;
+}
+.btn{
+    background-color: #157b8c;
+    color: #fff;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+}
